@@ -1,3 +1,73 @@
+# #💻/😎 Primeflix 
+
+
+![Welcome](./src/assets/primeflix.png?raw=true)
+
+📋 This project is the source code made by Visual Studio code where I commit to Github to upload to Vercel, available at:  - [vercel.com (https://app.netlify.com/)] Access the site ➡ ( https://filme-prime-flix.netlify.app/ )
+
+
+## 🎉 Start
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+### 📝 Pré-requisitos:
+
+You need to use Front-end.
+
+```
+* REACT.JS
+* JAVASCRIPT
+* CSS
+```
+
+## 📚 Library 🧠 
+```
+    EX:    NAVIGATE BETWEEN PAGES,
+                GET ID 
+                ACCESS LINKS 
+                SEARCH URL AND 
+                STYLE THE ALERT.
+
+* npm install react-router-dom
+import {useParams, useNavigte} from 'react-router-dom';
+import {BrowserRoutes,Routes, Route} 
+from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
+* npm install axios
+import axios from 'axios';
+
+* npm install react-toastify
+import { ToastContainer } from 'react-toastify';
+
+   BUILD
+* npm run build
+create file 
+_redirects + inside /* /index.html 200
+
+    DEPLOY DO PROJETO
+* npm install -g netlify-cli
+netlify deploy
+./build
+netlify deploy --prod
+./build
+```
+
+
+
+
+## 📁 Layout:
+
+We created the layout using VS Code. You can find the file [aqui](https://code.visualstudio.com/).
+
+## 🎮🎧 Author: ⚽💻 
+
+* 😎 **Thiago Caetano** - [LinkedIn](https://www.linkedin.com/in/thiagocb2-developer-fullstack/)
+
+
+
+<br><br><br>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
